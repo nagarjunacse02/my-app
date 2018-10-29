@@ -1,2 +1,2 @@
-FROM tomcat:8
-COPY target/*.war /home/osgdev/apache7/apache-tomcat-7.0.82/webapps
+FROM tomcat:8.0.20-jre8
+COPY target/*.war /usr/local/tomcat/webapps
